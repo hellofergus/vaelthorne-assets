@@ -1,0 +1,39 @@
+{
+  "races": [
+    {
+      "id": "elf",
+      "name": "Elf",
+      "description": "Graceful and long-lived, elves are known for their connection to magic and nature.",
+      "hasLineages": true,
+      "lineages": [
+        {
+          "id": "high-elf",
+          "name": "High Elf",
+          "description": "Cultured and magical, High Elves have a natural affinity for arcane arts."
+        },
+        {
+          "id": "wood-elf", 
+          "name": "Wood Elf",
+          "description": "Forest dwellers with keen senses and natural archery skills."
+        },
+        {
+          "id": "drow",
+          "name": "Drow",
+          "description": "Dark elves from the Underdark, known for their cunning and shadow magic."
+        }
+      ]
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "description": "Versatile and ambitious, humans are known for their adaptability.",
+      "hasLineages": false
+    },
+    {
+      "id": "dwarf",
+      "name": "Dwarf", 
+      "description": "Hardy and skilled craftspeople, dwarves are renowned for their resilience.",
+      "hasLineages": false
+    }
+  ]
+}
