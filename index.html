@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaelthorne - Character Creation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="character-creation-container">
+        <h1>Character Creation</h1>
+        <div class="section">
+            <h2>Choose Your Race</h2>
+            <div id="race-cards" class="race-cards-container">
+                <!-- Race cards will be dynamically generated -->
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Character Summary</h2>
+            <div id="character-summary" class="character-summary">
+                <p><strong>Race:</strong> <span id="selected-race">None</span></p>
+                <p id="selected-lineage-display" style="display: none;"><strong>Lineage:</strong> <span id="selected-lineage">None</span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="character-creation.js"></script>
+</body>
+</html>
